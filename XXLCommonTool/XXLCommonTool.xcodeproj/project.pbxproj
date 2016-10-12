@@ -13,6 +13,7 @@
 		611EE8F61DAD297B00272A7E /* XXLCommonToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611EE8F51DAD297B00272A7E /* XXLCommonToolTests.swift */; };
 		611EE9011DAD297B00272A7E /* XXLCommonToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611EE9001DAD297B00272A7E /* XXLCommonToolUITests.swift */; };
 		611EE90F1DAD309000272A7E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611EE90E1DAD309000272A7E /* RootViewController.swift */; };
+		611EE9111DAE9A7900272A7E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611EE9101DAE9A7900272A7E /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,8 @@
 		611EE8DD1DAD297B00272A7E /* XXLCommonTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXLCommonTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		611EE8E01DAD297B00272A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		611EE8E21DAD297B00272A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		611EE8E71DAD297B00272A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		611EE8EC1DAD297B00272A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611EE8E71DAD297B00272A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = XXLCommonTool/Assets.xcassets; sourceTree = "<group>"; };
+		611EE8EC1DAD297B00272A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = XXLCommonTool/Info.plist; sourceTree = "<group>"; };
 		611EE8F11DAD297B00272A7E /* XXLCommonToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXLCommonToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		611EE8F51DAD297B00272A7E /* XXLCommonToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXLCommonToolTests.swift; sourceTree = "<group>"; };
 		611EE8F71DAD297B00272A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		611EE9001DAD297B00272A7E /* XXLCommonToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXLCommonToolUITests.swift; sourceTree = "<group>"; };
 		611EE9021DAD297B00272A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		611EE90E1DAD309000272A7E /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		611EE9101DAE9A7900272A7E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "XXLCommonTool/Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				611EE8DF1DAD297B00272A7E /* XXLCommonTool */,
+				611EE9131DAEA01D00272A7E /* Supporting Files */,
 				611EE8F41DAD297B00272A7E /* XXLCommonToolTests */,
 				611EE8FF1DAD297B00272A7E /* XXLCommonToolUITests */,
 				611EE8DE1DAD297B00272A7E /* Products */,
@@ -98,8 +101,9 @@
 				611EE8E01DAD297B00272A7E /* AppDelegate.swift */,
 				611EE90E1DAD309000272A7E /* RootViewController.swift */,
 				611EE8E21DAD297B00272A7E /* ViewController.swift */,
-				611EE8E71DAD297B00272A7E /* Assets.xcassets */,
-				611EE8EC1DAD297B00272A7E /* Info.plist */,
+				611EE9141DAEA0E000272A7E /* 3rdLogin */,
+				611EE9151DAEA0E000272A7E /* 3tdShare */,
+				611EE9161DAEA0E000272A7E /* MapCommonTools */,
 			);
 			path = XXLCommonTool;
 			sourceTree = "<group>";
@@ -120,6 +124,37 @@
 				611EE9021DAD297B00272A7E /* Info.plist */,
 			);
 			path = XXLCommonToolUITests;
+			sourceTree = "<group>";
+		};
+		611EE9131DAEA01D00272A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				611EE8E71DAD297B00272A7E /* Assets.xcassets */,
+				611EE8EC1DAD297B00272A7E /* Info.plist */,
+				611EE9101DAE9A7900272A7E /* Launch Screen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		611EE9141DAEA0E000272A7E /* 3rdLogin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3rdLogin;
+			sourceTree = "<group>";
+		};
+		611EE9151DAEA0E000272A7E /* 3tdShare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3tdShare;
+			sourceTree = "<group>";
+		};
+		611EE9161DAEA0E000272A7E /* MapCommonTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapCommonTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611EE9111DAE9A7900272A7E /* Launch Screen.storyboard in Resources */,
 				611EE8E81DAD297B00272A7E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
